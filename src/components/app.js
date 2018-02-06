@@ -1,11 +1,11 @@
 import React from 'react';
-import GoogleMapComponent from './startingover/googleMapComponent';
-// import Map from './map';
-import {Container} from './startingover/container';
+import {Container} from './container';
+
+
 
 const App = () => (
     <div>
-        <GoogleMapComponent />
+        <Container />
     </div>
 );
 
